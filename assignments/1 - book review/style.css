@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box1 {
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url(./images/background.jpg);
+}
+
+.book1 {
+    margin: 50px;
+    height: 300px;
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    gap: 20px;
+}
+.book1 img {
+    height: 100%;
+}
+
