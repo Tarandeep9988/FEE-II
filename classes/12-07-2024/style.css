@@ -1,0 +1,18 @@
+/* Decendent Combinator selector */
+ul a {
+    color: red;
+    font-size: 20px;
+}
+img {
+    width: 300px;
+}
+
+/* Child combinator Selector */
+ol > li {
+    background-color: yellow;
+}
+
+/* Adjacent combinator Selector */
+h3+p{ /* Its flow is downwards*/
+    border: 2px solid aqua;
+}

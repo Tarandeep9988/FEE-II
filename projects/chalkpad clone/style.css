@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./images/bg.jpg);
+    height: 100vh;
+    border-top: 6px solid red;
+}
+
+.parent_box {
+    height: 100px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spacing {
+    height: 100px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    float: right;
+    width: 250px;
+    background-color: white;
+}
+.top_logo {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.logo_image {
+    width: 100%;
+    display: flex;
+}
+.logo_image > img {
+    width: 100%;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+.pwd_by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.pwd_by > img {
+    width: 50%;
+}
+.box form > input {
+    width: 100%;
+    height: 20px;
+}
+.session select{
+    height: 20px;
+    width: 100%;
+}
+.sbt_btn {
+    width: 100%;
+    height: 40px;
+}
+.mobile_code {
+    text-align: center;
+
+}
+.space_below{
+    margin-bottom: 10px;
+}
+.download_icon {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.mobile_code{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.verdana400{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.boxsize_borderbox{
+    box-sizing: border-box;
+}
