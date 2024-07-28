@@ -13,16 +13,16 @@
     <main>
         <form action="">
             <h2>Personal Details</h2>
-            <div class="inputBox">
+            <div class="inputBox margin-below">
                 <label for="first_name">Name</label>
-                <span class=".nameBox">
+                <span class="nameBox">
                     <input type="text" id="first_name" placeholder="First Name" required>
                     <input type="text" id="middle_name" placeholder="Middle Name">
                     <input type="text" id="last_name" placeholder="Last Name">
                 </span>
             </div>
     
-            <div class="inputBox">
+            <div class="inputBox margin-below">
                 <label for="gender">Gender</label>
                 <select name="gender" id="gender">
                     <option disabled selected>Select</option>
@@ -79,9 +79,11 @@
             
             <h3>Correspondence Address</h3>
             
-            <div class="inputBox">
+            <div class="inputBox correspondence">
                 <label for="sameAsPresent">Same as present address</label>
-                <input type="checkbox" id="sameAsPresent">  
+                <span>
+                    <input type="checkbox" id="sameAsPresent">  
+                </span>
             </div>
 
             <div class="inputBox">
@@ -187,19 +189,15 @@
            
     
             <h2>Upload documents</h2>
-    
-            <label for="resume">Upload resume or cover letter: </label>
-            <input type="file" id="resume" name="resume" accept="image/png, image/jpeg, image/tiff, image/bmp, image/pdf">
-    
-            <br>
-            <br>
-    
-            <label for="photograph">Photograph </label>
-            <input type="file" id="photograph" name="photograph" accept="image/png, image/jpeg, image/tiff, image/bmp, image/pdf">
-    
-            <br>
-            <br>
-            
+            <div class="upload upload-box1">
+                <label for="resume">Upload resume or cover letter: </label>
+                <input type="file" id="resume" name="resume" accept="image/png, image/jpeg, image/tiff, image/bmp, image/pdf">
+            </div>
+
+            <div class="upload upload-box2">
+                <label for="photograph">Photograph </label>
+                <input type="file" id="photograph" name="photograph" accept="image/png, image/jpeg, image/tiff, image/bmp, image/pdf">
+            </div>
             <input type="submit" class="sbtBtn">
         </form>
     </main>

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header h1 {
     display: flex;
@@ -61,4 +62,28 @@ h3 {
     width: 100%;
     padding: 10px;
     border-radius: 8px;
+}
+.nameBox input {
+    width: 100%;
+}
+.nameBox {
+    width: 60%;
+}
+#otherSkills {
+    resize: none;
+    width: 100%;
+    height: 100px;
+    overflow-y: auto;
+}
+.upload {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sbtBtn {
+    margin-top: 30px;
+}
+.upload,
+.inputBox{
+    margin-bottom: 5px;
 }
